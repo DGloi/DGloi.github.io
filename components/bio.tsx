@@ -1,0 +1,23 @@
+import { Flex, Text, Heading, Img } from "@chakra-ui/react";
+import { BioContent } from "../types";
+
+export const Bio = (content: BioContent) => (
+    <Flex direction="row" gap="10" py="5">
+      <Flex direction="column">
+        <Heading>{content.name}</Heading>
+        <Text fontSize="lg">{content.title}</Text>
+        <Text paddingTop="5">{content.tagline}</Text>
+      </Flex>
+      <Img
+        src="frog.png"
+        borderRadius='full'
+        boxSize="150px"
+        filter="grayscale(30%)"
+        _hover={{
+          filter: "grayscale(10%)",
+        }}
+      />
+    </Flex>
+)
+
+export default Bio;
