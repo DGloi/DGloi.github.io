@@ -1,7 +1,6 @@
 import NextLink from "next/link";
 import { useRouter } from "next/router";
-import { HStack, useColorMode, Spacer, Button } from "@chakra-ui/react";
-import { FaMoon, FaSun } from "react-icons/fa";
+import { HStack, useColorMode, Spacer, Button, Image } from "@chakra-ui/react";
 import { NavPage } from "../types";
 
 const NavElem = (navPage: NavPage) => {
@@ -22,9 +21,11 @@ const NavElem = (navPage: NavPage) => {
 
 const ToggleDarkModeButton = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  const iconUrl = colorMode === 'dark' ? '/logos/sun.svg' : '/logos/moon.svg';  // URLs from the public directory
+
   return (
     <Button onClick={toggleColorMode}>
-      {colorMode === "dark" ? <FaSun /> : <FaMoon />}
+      <Image src={iconUrl} alt={colorMode === 'dark' ? "Sun Icon" : "Moon Icon"} boxSize="4" />
     </Button>
   );
 };

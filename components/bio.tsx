@@ -2,19 +2,19 @@ import { Flex, Text, Heading, Img } from "@chakra-ui/react";
 import { BioContent } from "../types";
 
 export const Bio = (content: BioContent) => (
-    <Flex direction="row" gap="10" py="5">
+    <Flex direction="row" gap="100" py="5">
       <Flex direction="column">
         <Heading>{content.name}</Heading>
         <Text fontSize="lg">{content.title}</Text>
         <Text paddingTop="5">{content.tagline}</Text>
       </Flex>
       <Img
-        src="frog.png"
+        src="bio.png"
         borderRadius='full'
-        boxSize="150px"
+        boxSize="300px"
         filter="grayscale(30%)"
         _hover={{
-          filter: "grayscale(10%)",
+          filter: "grayscale(20%)",
         }}
       />
     </Flex>

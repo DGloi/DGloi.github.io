@@ -1,15 +1,61 @@
 [
     {
-        "name": "",
-        "link": "",
-        "logo": "",
-        "location": "",
+        "name": "Epidemic Sound",
+        "link": "https://www.epidemicsound.com/",
+        "logo": "epidemic-sound.png",
+        "location": "Stockholm, Sweden🇸🇪",
         "roles": [
             {
-                "title": "",
-                "description": "",
-                "start": "",
-                "end": ""
+                "title": "Software Engineer : financial systems",
+                "description": "<b> blablavdzfbvidfv <\b> dfsbniv dsnbiusdfnviusdfvbndisuvhdfsiuvh SIUDvhbnDSIUvhDSiucvhSIOUvhjzxiofbvdfgsbdfsgna zdfn fgxn xƒ©bn gzvn fg  x g ggfg g cvjhcxziogvjdfsxzo ugvhsdiuvhndfiuv NSXFvikdfszhjvox zcjvdfiosuxzvhjxzcvhjSDIOUdfhjziuvhxz iugvhbdszfivhdzfiu dfhsxzvikudfsxzvhndfkzvkj",
+                "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
+                "start": "02/2019",
+                "end": "01/2020"
+            }
+        ]
+    },
+    {
+        "name": "J.P.Morgan",
+        "link": "https://www.jpmorganchase.com/",
+        "logo": "JP-Morgan.png",
+        "location": "Warsaw, Poland🇵🇱",
+        "roles": [
+            {
+                "title": "Senior Data Analyst : General Ledger ",
+                "description": "blabla",
+                "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
+                "start": "02/2019",
+                "end": "01/2020"
+            }
+        ]
+    },
+    {
+        "name": "Schneider-Electric",
+        "link": "https://www.se.com/ww/en/",
+        "logo": "Schneider Electric.svg",
+        "location": "Aubenas, France🇫🇷",
+        "roles": [
+            {
+                "title": "Junior FP&A Analyst",
+                "description": "blabla",
+                "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
+                "start": "02/2019",
+                "end": "01/2020"
+            }
+        ]
+    },
+    {
+        "name": "Stellantis",
+        "link": "https://www.stellantis.com/en",
+        "logo": "stellantis.png",
+        "location": "Poissy, France🇫🇷",
+        "roles": [
+            {
+                "title": "Intern : Internal Audit, CAFE Compliance",
+                "description": "blabla",
+                "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
+                "start": "02/2019",
+                "end": "01/2020"
             }
         ]
     }

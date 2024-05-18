@@ -1,55 +1,55 @@
 import { Text, Flex, Img, Link } from "@chakra-ui/react";
-import { Experience, Role } from "../types";
+import { Education, Name } from "../types";
 
 import appendix from "../data/appendix.json";
 import Appendix from "./appendix";
 
-const ExperienceRole = (role: Role) => {
+const EducationName = (name: Name) => {
   return (
-    <Flex key={role.title + role.end} direction="row">
+    <Flex key={name.title + name.end} direction="row">
       <Flex direction="column" width="80%">
         <Text fontSize="md" as="b">
-          {role.title}
+          {name.title}
         </Text>
-        <Text fontSize="sm">{Appendix(role.description ?? "", appendix)}</Text>
+        <Text fontSize="sm">{Appendix(name.description ?? "", appendix)}</Text>
       </Flex>
       <Flex direction="column" width="20%">
         <Text fontSize="x-small" align="right">
-          {role.end}
+          {name.end}
         </Text>
         <Text fontSize="x-small" align="right">
-          {role.start}
+          {name.start}
         </Text>
       </Flex>
     </Flex>
   );
 };
 
-const ExperienceElem = (experience: Experience) => {
+const EducationElem = (education: Education) => {
   return (
-    <Flex direction="row" gap="5" key={experience.name}>
+    <Flex direction="row" gap="5" key={education.name}>
       <Flex direction="column" alignItems="center" maxWidth="20">
-        <Link href={experience.link} textAlign="center" isExternal>
+        <Link href={education.link} textAlign="center" isExternal>
           <Img
             bg="white"
             padding="3"
-            src={`logos/${experience.logo}`}
+            src={`logos/${education.logo}`}
             objectFit="scale-down"
             maxWidth="20"
             minHeight="20"
             rounded="lg"
           />
-          <Text as="b">{experience.name}</Text>
+          <Text as="b">{education.name}</Text>
         </Link>
         <Text marginY="-1" fontSize="x-small">
-          {experience.location}
+          {education.location}
         </Text>
       </Flex>
       <Flex direction="column" width="100%" gap="3">
-        {experience.roles.map(ExperienceRole)}
+        {education.names.map(EducationName)}
       </Flex>
     </Flex>
   );
 };
 
-export default ExperienceElem;
+export default EducationElem;

@@ -17,9 +17,19 @@ export interface Role {
   start: string;
   end: string;
 }
+export interface Name {
+  title: string;
+  description?: string;
+  start: string;
+  end: string;
+}
 
 export interface Experience extends Place {
   roles: Role[];
+}
+
+export interface Education extends Place {
+  names: Name[];
 }
 
 export interface Social {
