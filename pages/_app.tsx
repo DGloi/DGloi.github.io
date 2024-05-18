@@ -8,6 +8,17 @@ import Footer from "../components/footer";
 import navbar from "../data/navbar.json";
 import bio from "../data/bio.json";
 import Head from 'next/head';
+import { Global } from '@emotion/react'
+
+const GlobalStyle = () => (
+  <Global
+    styles={`
+      body {
+        overflow-y: scroll;
+      }
+    `}
+  />
+);
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
@@ -16,7 +27,8 @@ const App = ({ Component, pageProps }: AppProps) => {
         <title>{`${bio.name} - Developer`}</title>
         <link rel="icon" type="image/svg+xml" href="/home.svg" />
       </Head>
-      <Container  maxW="container.md" px={4} marginBottom="10">
+      <GlobalStyle />
+      <Container  maxW="container.md"  px={4} py={4}>
         {Navbar(navbar)}
         <Component {...pageProps} />
         {Edit()}

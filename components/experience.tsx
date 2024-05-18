@@ -1,19 +1,25 @@
 import { Text, Flex, Img, Link } from "@chakra-ui/react";
 import { Experience, Role } from "../types";
-
 import appendix from "../data/appendix.json";
 import Appendix from "./appendix";
 
 const ExperienceRole = (role: Role) => {
   return (
-    <Flex key={role.title + role.end} direction="row">
+    <Flex key={role.title + role.end} direction="row" flexWrap="wrap">
       <Flex direction="column" width="80%">
         <Text fontSize="md" as="b">
           {role.title}
         </Text>
-        <Text fontSize="sm">{Appendix(role.description ?? "", appendix)}</Text>
+        <Text fontSize="sm" overflow="hidden" textOverflow="ellipsis">
+          {Appendix(role.description ?? "", appendix)}
+        </Text>
         <br />
-        <Text fontSize="xs">  <b><u>Stack</u></b> : {Appendix(role.stack ?? "", appendix)}</Text>
+        <Text fontSize="xs">
+          <b>
+            <u>Stack</u>
+          </b>{" "}
+          : {Appendix(role.stack ?? "", appendix)}
+        </Text>
       </Flex>
       <Flex direction="column" width="20%">
         <Text fontSize="small" align="right">
@@ -29,21 +35,20 @@ const ExperienceRole = (role: Role) => {
 
 const ExperienceElem = (experience: Experience) => {
   return (
-    <Flex direction="row" gap="5" key={experience.name}>
-      <Flex direction="column" alignItems="center" maxWidth="20">
+    <Flex direction="row" gap="5" key={experience.name} alignItems="flex-start">
+      <Flex direction="column" alignItems="center" maxWidth="20" flexShrink={0}>
         <Link href={experience.link} textAlign="center" isExternal>
           <Img
             bg="white"
-            padding="0.5"
+            p={2}
             src={`logos/${experience.logo}`}
             objectFit="scale-down"
-            maxWidth="20"
-            minHeight="20"
+            boxSize="20"
             rounded="lg"
           />
-          <Text as="b"fontSize="medium">{experience.name}</Text>
+          <Text as="b" fontSize="medium">{experience.name}</Text>
         </Link>
-        <Text marginY="" fontSize="small" textAlign="center">
+        <Text marginY="2" fontSize="small" textAlign="center">
           {experience.location}
         </Text>
       </Flex>

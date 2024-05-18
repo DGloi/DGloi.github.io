@@ -1,12 +1,12 @@
 import { Flex } from "@chakra-ui/react";
-import WritingElem from "../components/writing";
+import ProjectElem from "../components/writing";
 
-import talks from "../data/talks.json";
+import project from "../data/project.json";
 
-const TalksPage = () => (
+const ProjectPage = () => (
     <Flex direction="column" gap="3">
-      {talks.map(WritingElem)}
+      {project.map(ProjectElem)}
     </Flex>
 );
 
-export default TalksPage;
+export default ProjectPage;

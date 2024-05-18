@@ -11,7 +11,7 @@ export const Bio = (content: BioContent) => (
       <Img
         src="bio.png"
         borderRadius='full'
-        boxSize="300px"
+        boxSize="250px"
         filter="grayscale(30%)"
         _hover={{
           filter: "grayscale(20%)",
