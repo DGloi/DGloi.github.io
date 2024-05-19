@@ -1,24 +1,24 @@
 import { Text, Flex, Img, Link } from "@chakra-ui/react";
-import { Education, Name } from "../types";
+import { Education, Detail } from "../types";
 import appendix from "../data/appendix.json";
 import Appendix from "./appendix";
 
-const EducationName = (name: Name) => {
+const EducationDetail = (detail: Detail) => {
   return (
-    <Flex key={name.title + name.end} direction="row">
+    <Flex key={detail.title + detail.end} direction="row">
       <Flex direction="column" width="80%">
         <Text fontSize="md" as="b">
-          {name.title}
+          {detail.title}
         </Text>
-        <Text fontSize="sm">{Appendix(name.description ?? "", appendix)}</Text>
+        <Text fontSize="sm">{Appendix(detail.description ?? "", appendix)}</Text>
         <br />
       </Flex>
       <Flex direction="column" width="20%">
         <Text fontSize="small" align="right">
-          {name.end}
+          {detail.end}
         </Text>
         <Text fontSize="small" align="right">
-          {name.start}
+          {detail.start}
         </Text>
       </Flex>
     </Flex>
@@ -46,7 +46,7 @@ const EducationElem = (education: Education) => {
         </Text>
       </Flex>
       <Flex direction="column" width="100%" gap="4">
-        {education.names.map(EducationName)}
+        {education.details.map(EducationDetail)}
       </Flex>
     </Flex>
   );

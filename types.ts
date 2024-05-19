@@ -14,10 +14,11 @@ export interface BioContent {
 export interface Role {
   title: string;
   description?: string;
+  stack?: string;
   start: string;
   end: string;
 }
-export interface Name {
+export interface Detail {
   title: string;
   description?: string;
   start: string;
@@ -29,7 +30,7 @@ export interface Experience extends Place {
 }
 
 export interface Education extends Place {
-  names: Name[];
+  details: Detail[];
 }
 
 export interface Social {
@@ -47,4 +48,11 @@ export interface Content {
   description: string;
   link: string;
   published: string;
+}
+
+export interface Content {
+  title: string;
+  description: string;
+  link: string;
+  date: string;
 }
