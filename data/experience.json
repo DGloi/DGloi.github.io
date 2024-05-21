@@ -7,7 +7,7 @@
         "roles": [
             {
                 "title": "Software Engineer : financial systems",
-                "description": "<b> blabvhndfkzvkj",
+                "description": "blank",
                 "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
                 "start": "02/2019",
                 "end": "01/2020"
@@ -23,7 +23,7 @@
             {
                 "title": "Senior Data Analyst : General Ledger ",
                 "description": "blabla",
-                "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
+                "stack": "blank",
                 "start": "02/2019",
                 "end": "01/2020"
             }
@@ -37,8 +37,8 @@
         "roles": [
             {
                 "title": "Junior FP&A Analyst",
-                "description": "blabla",
-                "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
+                "description": "blank",
+                "stack": "blank",
                 "start": "02/2019",
                 "end": "01/2020"
             }
@@ -52,8 +52,8 @@
         "roles": [
             {
                 "title": "Intern : Internal Audit, CAFE",
-                "description": "blabla",
-                "stack": "Python, Django, React, AWS, Terraform, Docker, Kubernetes",
+                "description": "blank",
+                "stack": "blank",
                 "start": "02/2019",
                 "end": "01/2020"
             }
