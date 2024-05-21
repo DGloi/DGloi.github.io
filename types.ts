@@ -47,12 +47,10 @@ export interface Content {
   title: string;
   description: string;
   link: string;
-  published: string;
-}
-
-export interface Content {
-  title: string;
-  description: string;
-  link: string;
   date: string;
+}
+export interface GalleryItem {
+  title: string;
+  legend: string;
+  src: string;
 }
