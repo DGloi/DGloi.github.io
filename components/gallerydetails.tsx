@@ -48,7 +48,7 @@ const GalleryDetail = () => {
                 onClick={previousImage}
                 zIndex="1"
               />
-              <Image src={galleryData[currentImageIndex].src} alt={galleryData[currentImageIndex].alt} borderRadius="md" />
+              <Image src={galleryData[currentImageIndex].src} alt={galleryData[currentImageIndex].legend} borderRadius="md" />
               <IconButton
                 aria-label="Next Image"
                 icon={<FaChevronRight />}
