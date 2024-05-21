@@ -1,9 +1,15 @@
 [
     {
-        "title": "",
-        "description": "",
-        "link": "",
-        "date": ""
-        
+      "title": "Project 1",
+      "description": "Description of project 1",
+      "link": "https://example.com/project1",
+      "date": "2020-01-01"
+    },
+    {
+      "title": "Project 2",
+      "description": "Description of project 2",
+      "link": "https://example.com/project2",
+      "date": "2020-01-02"
     }
-]
+  ]
+  

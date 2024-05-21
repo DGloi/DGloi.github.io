@@ -12,7 +12,11 @@
         "text": "Education"
     },
     {
-        "link": "/projects",
-        "text": "Projects"
+        "link": "/project",
+        "text": "Project"
+    },
+    {
+        "link": "/gallery",
+        "text": "Gallery"
     }
 ]
