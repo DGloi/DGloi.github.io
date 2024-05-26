@@ -2,33 +2,66 @@
     {
       "title": "img1",
       "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
     },
     {
       "title": "img1",
       "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
     },
     {
       "title": "img1",
       "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
     },
     {
       "title": "img1",
       "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
     },
     {
       "title": "img1",
       "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
     },
     {
       "title": "img1",
-      "legend": "Description of img 2",
-      "src": "../gallery/img1.jpg"
+      "legend": "Description of img 1",
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
+    },
+    {
+      "title": "img4",
+      "legend": "Description of img 1",
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
+    },
+    {
+      "title": "img5",
+      "legend": "Description of img 1",
+      "src": "../gallery/img1.jpg",
+      "text": "text",
+      "date_taken": "2020-01-01",
+      "date_posted":"2023-01-01"
     }
-
   ]
   
