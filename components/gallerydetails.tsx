@@ -1,4 +1,4 @@
-import { Box, Image, Text, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, IconButton, Flex } from "@chakra-ui/react";
+import { Box, Image, Text, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, IconButton, Flex, useColorModeValue, useTheme } from "@chakra-ui/react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import galleryData from "../data/gallery.json";
 
@@ -12,11 +12,15 @@ interface GalleryDetailProps {
 
 const GalleryDetail = ({ isOpen, onClose, currentImageIndex, nextImage, previousImage }: GalleryDetailProps) => {
   const imageData = galleryData[currentImageIndex];
+  const theme = useTheme();
+  const bg = useColorModeValue(theme.colors.light[800], theme.colors.dark[800]);
+  const iconBg = useColorModeValue("rgba(0, 0, 0, 0.1)", "rgba(255, 255, 255, 0.1)");
+  const iconColor = useColorModeValue(theme.colors.gray[800], theme.colors.white);
 
   return (
     <Modal isOpen={isOpen} onClose={onClose} size="full" isCentered>
       <ModalOverlay />
-      <ModalContent maxW="100vw" maxH="100vh">
+      <ModalContent maxW="100vw" maxH="100vh" bg={bg}>
         <ModalCloseButton zIndex="2" />
         <ModalBody display="flex" justifyContent="center" alignItems="center" position="relative" p={2}>
           <Flex w="100%" h="100%" alignItems="center" justifyContent="center">
@@ -26,14 +30,14 @@ const GalleryDetail = ({ isOpen, onClose, currentImageIndex, nextImage, previous
                 icon={<FaChevronLeft />}
                 onClick={previousImage}
                 zIndex="1"
-                bg="rgba(0, 0, 0, 0.5)"
-                color="white"
-                _hover={{ bg: "rgba(0, 0, 0, 0.7)" }}
+                bg={iconBg}
+                color={iconColor}
+                _hover={{ bg: "rgba(0, 0, 0, 0.3)" }}
                 mb={2}
               />
             </Flex>
             <Flex
-              direction={{ base: "column",xl: "row" }}
+              direction={{ base: "column", xl: "row" }}
               w="100%"
               h="100%"
               alignItems="center"
@@ -70,9 +74,9 @@ const GalleryDetail = ({ isOpen, onClose, currentImageIndex, nextImage, previous
                 icon={<FaChevronRight />}
                 onClick={nextImage}
                 zIndex="1"
-                bg="rgba(0, 0, 0, 0.5)"
-                color="white"
-                _hover={{ bg: "rgba(0, 0, 0, 0.7)" }}
+                bg={iconBg}
+                color={iconColor}
+                _hover={{ bg: "rgba(0, 0, 0, 0.3)" }}
                 mb={2}
               />
             </Flex>
