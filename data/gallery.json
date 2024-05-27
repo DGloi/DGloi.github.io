@@ -1,33 +1,73 @@
 [
     {
-      "title": "img1",
-      "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "legend": "French Alps, Savoie 🇫🇷",
+      "src": "../gallery/alps.jpg",
+      "text": "text",
+      "date_taken": "April 2019",
+      "date_posted":"2024-05-27"
     },
     {
-      "title": "img1",
-      "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "legend": "Gallerie Lafayette, Paris 🇫🇷",
+      "src": "../gallery/paris.jpeg",
+      "text": "text",
+      "date_taken": "2023-07-16",
+      "date_posted":"2024-05-27"
     },
     {
-      "title": "img1",
-      "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "legend": "Young Oak, Lazenki Park, Warsaw 🇵🇱",
+      "src": "../gallery/oak-warsaw.jpg",
+      "text": "text",
+      "date_taken": "2021-03-01",
+      "date_posted":"2024-05-21"
     },
     {
-      "title": "img1",
-      "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "legend": "Stora Mossen, Bromma 🇸🇪",
+      "src": "../gallery/stora-mossen.jpeg",
+      "text": "text",
+      "date_taken": "2023-11-24",
+      "date_posted":"2024-05-21"
     },
     {
-      "title": "img1",
-      "legend": "Description of img 1",
-      "src": "../gallery/img1.jpg"
+      "legend": "Gamla Uppsala, Uppland 🇸🇪",
+      "src": "../gallery/gamla-uppsala.jpeg",
+      "text": "text",
+      "date_taken": "2021-03-01",
+      "date_posted":"2024-05-21"
     },
     {
-      "title": "img1",
-      "legend": "Description of img 2",
-      "src": "../gallery/img1.jpg"
+      "legend": "Christmas market, Krakow 🇵🇱",
+      "src": "../gallery/krakow.jpeg",
+      "text": "text",
+      "date_taken": "2023-12-18",
+      "date_posted":"2024-05-21"
+    },
+    {
+      "legend": "Groix Island, Brittany 🇫🇷",
+      "src": "../gallery/groix.jpg",
+      "text": "text",
+      "date_taken": "2018-06-23",
+      "date_posted":"2024-05-21"
+    },
+    {
+      "legend": "Ray-pic Cascade, Ardeche 🇫🇷",
+      "src": "../gallery/ray-pic-cascade.jpg",
+      "text": "text",
+      "date_taken": "2021-10-13",
+      "date_posted":"2024-05-21"
+    },
+    {
+      "legend": "Rimouski, Quebec 🇨🇦",
+      "src": "../gallery/Rimouski.jpg",
+      "text": "text",
+      "date_taken": "2018-08-10",
+      "date_posted":"2024-05-21"
+    },
+    {
+      "legend": "Quebec City Falls, Quebec 🇨🇦",
+      "src": "../gallery/quebec.jpg",
+      "text": "text",
+      "date_taken": "2018-08-08",
+      "date_posted":"2024-05-21"
     }
 
   ]

@@ -38,12 +38,13 @@ const ExperienceElem = (experience: Experience) => {
     <Flex direction="row" gap="5" key={experience.name} alignItems="flex-start">
       <Flex direction="column" alignItems="center" maxWidth="20" flexShrink={0}>
         <Link href={experience.link} textAlign="center" isExternal>
-          <Img
+        <Img
             bg="white"
-            p={2}
+            padding="0.5"
             src={`logos/${experience.logo}`}
             objectFit="scale-down"
-            boxSize="20"
+            maxWidth="20"
+            minHeight="20"
             rounded="lg"
           />
           <Text as="b" fontSize="medium">{experience.name}</Text>

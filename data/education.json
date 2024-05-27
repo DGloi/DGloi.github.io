@@ -1,16 +1,31 @@
 [
     {
         "link": "https://www.grenoble-em.com/en",
-        "logo": "grenoble.png",
-        "location": "Grenoble, France",
-        "name" : "Grenoble Ecole de Management",
+        "logo": "grenoble-ecole-de-management.png",
+        "location": "Grenoble 🇫🇷",
+        "name" : "Grenoble Bussiness School",
         "details": [
             {
-                "title": "",
-                "description": "blank",
-                "start": "02/2019",
-                "end": "02/2019"
+                "title": "Master Degree: Corporate Finance",
+                "description": "Major: Quantitative Finance and modeling. Relevant courses  Quantitative methods for decisions, portfolio management, macroeconomics, microeconomics, Bayesian Data Analysis.",
+                "start": "09/2019",
+                "end": "09/2021"
+            }
+        ]
+    },
+    {
+        "link": "https://www.u-bordeaux.fr/en",
+        "logo": "visuel-universite-UB-1.jpg",
+        "location": "Bordeaux 🇫🇷",
+        "name" : "Bordeaux University",
+        "details": [
+            {
+                "title": "Bachelor Degree: Economics and Accounting",
+                "description": " Relevant courses : VBA Programming , Accounting, macroeconomics, microeconomics, econometrics.",
+                "start": "09/2016",
+                "end": "08/2019"
             }
         ]
     }
+
 ]
