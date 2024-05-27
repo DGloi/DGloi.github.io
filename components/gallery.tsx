@@ -25,7 +25,13 @@ const GalleryElem = () => {
       <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={5}>
         {galleryData.map((image, index) => (
           <Flex key={index} direction="column" alignItems="center" onClick={() => openCarousel(index)} cursor="pointer">
-            <Image src={image.src} alt={image.legend} borderRadius="md" />
+            <Image
+              src={image.src}
+              alt={image.legend}
+              borderRadius="md"
+              boxSize="200px" // Adjust the size as needed
+              objectFit="cover"
+            />
             <Text mt={2}>{image.legend}</Text>
           </Flex>
         ))}

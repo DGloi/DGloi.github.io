@@ -1,15 +1,15 @@
 [
     {
-      "title": "Project 1",
-      "description": "Description of project 1",
-      "link": "https://example.com/project1",
-      "date": "2020-01-01"
+      "title": "Reviewing Platform",
+      "description": "A comprehensive platform for salary reviews process. It is a web applciation allowing database connections to various HR system. Its built using react and node.js. It is a full stack application with a database connection to MongoDB.",
+      "link": "https://github.com/DGloi/review-app",
+      "date": "2023-12-15"
     },
     {
-      "title": "Project 2",
-      "description": "Description of project 2",
-      "link": "https://example.com/project2",
-      "date": "2020-01-02"
+      "title": "This Website :) ", 
+      "description": "I always wanted to have a personal website, and now I have one! I built this website using Typescript and is deployed via Vercel. I used Next.js for the front-end. I am planning to add more features to this website in the future.",
+      "link": "https://github.com/DGloi/DGloi.github.io",
+      "date": "2024-04-12"
     }
   ]
   

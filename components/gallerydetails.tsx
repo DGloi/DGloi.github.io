@@ -64,8 +64,11 @@ const GalleryDetail = ({ isOpen, onClose, currentImageIndex, nextImage, previous
                   {imageData.legend}
                 </Text>
                 <Text fontSize="small">
-                  This is a detailed description for the image. You can add more text here to describe the image in detail.
+                  {imageData.text}
                 </Text>
+                <Text fontSize="small" mt={2}>
+                  Date Taken: {imageData.date_taken}
+                </Text>  
               </Box>
             </Flex>
             <Flex direction="column" alignItems="center" justifyContent="center" p={2}>

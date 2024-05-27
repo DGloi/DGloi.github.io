@@ -50,7 +50,6 @@ export interface Content {
   date: string;
 }
 export interface GalleryItem {
-  title: string;
   legend: string;
   src: string;
   text: string;
