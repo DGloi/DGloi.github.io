@@ -24,7 +24,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>{`${bio.name} - Developer`}</title>
+        <title>{`${bio.name} - Data Engineer`}</title>
         <link rel="icon" type="image/svg+xml" href="/home.svg" />
       </Head>
       <GlobalStyle />
