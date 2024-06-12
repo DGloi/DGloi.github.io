@@ -7,10 +7,10 @@
         "roles": [
             {
                 "title": "Software Engineer : financial systems",
-                "description": "Current",
-                "stack": "Python, Django, React, GCP, Bigquery, JS, SQL, , Terraform, Docker, Kubernetes",
+                "description": "👷",
+                "stack": "Git, Python, Django, React, GCP, Bigquery, JS, SQL, , Terraform, Docker, Kubernetes",
                 "start": "05/2023",
-                "end": "Current"
+                "end": "Present"
             }
         ]
     },
@@ -22,8 +22,8 @@
         "roles": [
             {
                 "title": "Senior Data Analyst : General Ledger ",
-                "description": "At JP Morgan as an Analyst, I was responsible for the maintenance of the General Ledger data pipeline. I was in charge of the reconciliation process between the General Ledger and the sub-ledgers. I have developed operational dashboards to monitor data quality and to provide insights to the business. I have lead automation projects for our daily operations and succesfully deployed them to allthe teams in the US/India/Poland.",
-                "stack": "AWS, VBA, Python, Docker, SQL, Tableau",
+                "description": "Responsible for the maintenance of the General Ledger data pipeline. In charge of the reconciliation process between the General Ledger and the sub-ledgers. Developed operational dashboards on manual journal entry data quality. I have lead automation projects for our daily operations and succesfully deployed them to across teams in the US/Poland.",
+                "stack": "Git, AWS, VBA, Python, Docker, SQL, Tableau",
                 "start": "02/2021",
                 "end": "04/2023"
             }
@@ -37,8 +37,8 @@
         "roles": [
             {
                 "title": "Junior FP&A Analyst",
-                "description": "Performed on a monthly basis: Cost follow up analysis,  material performance analysis, stock analysis, inventory analysis,item. Designed Dashboards on Tableau to have interactive monitoring on raw material productivity with production. Saved 3h of working hours for management weekly, design improvement and kept the data up to date everyday. I created small scale automations on VBA and Python on existing processes for my position e.g Scheduled data extraction from SAP ERP on a daily basis. Created macros to update excel files automatically. Limited human errors and saved up to 2h daily.",
-                "stack": "VBA, Excel, Tableau, SAP ERP",
+                "description": "Performed on a monthly basis: Cost follow up analysis,  material performance analysis, stock analysis, inventory analysis,item. Designed Dashboards on Tableau for nteractive monitoring on raw material productivity. Created automations on VBA and Python on my processes.  e.g Scheduled data extraction from SAP ERP on a daily basis. Created macros to update excel files automatically. Limited human errors and saved up to 2h daily.",
+                "stack": "Git, Python, VBA, Excel, Tableau, SAP ERP",
                 "start": "02/2019",
                 "end": "01/2020"
             }
@@ -52,8 +52,8 @@
         "roles": [
             {
                 "title": "Intern : Internal Audit, CAFE",
-                "description": "blank",
-                "stack": "blank",
+                "description": "Instership in the Internal Audit department of PSA group ( now Stellantis). Participated on CAFE (Corporate Average Fuel Economy) audit and co-lead investigations and documentions accross european plants.",
+                "stack": "Excel",
                 "start": "02/2019",
                 "end": "01/2020"
             }

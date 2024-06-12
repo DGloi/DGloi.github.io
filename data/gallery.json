@@ -2,70 +2,70 @@
     {
       "legend": "French Alps, Savoie 🇫🇷",
       "src": "../gallery/alps.jpg",
-      "text": "text",
+      "text": "",
       "date_taken": "April 2019",
       "date_posted":"2024-05-27"
     },
     {
       "legend": "Gallerie Lafayette, Paris 🇫🇷",
       "src": "../gallery/paris.jpeg",
-      "text": "text",
+      "text": "One of my favorite view of Paris",
       "date_taken": "2023-07-16",
       "date_posted":"2024-05-27"
     },
     {
       "legend": "Young Oak, Lazenki Park, Warsaw 🇵🇱",
       "src": "../gallery/oak-warsaw.jpg",
-      "text": "text",
+      "text": "Growing strong",
       "date_taken": "2021-03-01",
       "date_posted":"2024-05-21"
     },
     {
       "legend": "Stora Mossen, Bromma 🇸🇪",
       "src": "../gallery/stora-mossen.jpeg",
-      "text": "text",
+      "text": "",
       "date_taken": "2023-11-24",
       "date_posted":"2024-05-21"
     },
     {
       "legend": "Gamla Uppsala, Uppland 🇸🇪",
       "src": "../gallery/gamla-uppsala.jpeg",
-      "text": "text",
+      "text": "Cold. Very cold.",
       "date_taken": "2021-03-01",
       "date_posted":"2024-05-21"
     },
     {
       "legend": "Christmas market, Krakow 🇵🇱",
       "src": "../gallery/krakow.jpeg",
-      "text": "text",
+      "text": "",
       "date_taken": "2023-12-18",
       "date_posted":"2024-05-21"
     },
     {
       "legend": "Groix Island, Brittany 🇫🇷",
       "src": "../gallery/groix.jpg",
-      "text": "text",
+      "text": "",
       "date_taken": "2018-06-23",
       "date_posted":"2024-05-21"
     },
     {
       "legend": "Ray-pic Cascade, Ardeche 🇫🇷",
       "src": "../gallery/ray-pic-cascade.jpg",
-      "text": "text",
+      "text": "Famous Volcanic waterfall in the Ardeche region",
       "date_taken": "2021-10-13",
       "date_posted":"2024-05-21"
     },
     {
       "legend": "Rimouski, Quebec 🇨🇦",
       "src": "../gallery/Rimouski.jpg",
-      "text": "text",
+      "text": "'The calm before the storm'",
       "date_taken": "2018-08-10",
       "date_posted":"2024-05-21"
     },
     {
       "legend": "Quebec City Falls, Quebec 🇨🇦",
       "src": "../gallery/quebec.jpg",
-      "text": "text",
+      "text": "'Life is not always a peaceful river'",
       "date_taken": "2018-08-08",
       "date_posted":"2024-05-21"
     }

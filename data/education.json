@@ -26,6 +26,34 @@
                 "end": "08/2019"
             }
         ]
+    },
+    {
+        "link": "https://www.credly.com/badges/27c8352c-3f58-4a94-aab6-0c3137eaafa4",
+        "logo": "Certification_Designer_Advanced.png",
+        "location": "",
+        "name" : "Alteryx Designer",
+        "details": [
+            {
+                "title": "Alteryx Designer Advanced Certification"               ,
+                "description": "Earners of this certification have extensive knowledge of advanced functionality in Alteryx Designer. They are able to design analytic applications, build custom macros, analyze spatial data, perform advanced data preparation and analysis, and create reports with data visualizations. Earners have demonstrated their ability to use Designer to solve complex, real-world analytics problems.                ",
+                "start": "08/2022",
+                "end": ""
+            }
+        ]
+    },
+    {
+        "link": "https://www.credly.com/badges/27c8352c-3f58-4a94-aab6-0c3137eaafa4",
+        "logo": "azure.png",
+        "location": "",
+        "name" : "Microsoft Azure",
+        "details": [
+            {
+                "title": "Microsoft Certified: AZ-900 Azure Fundamental"               ,
+                "description": "",
+                "start": "08/2022",
+                "end": ""
+            }
+        ]
     }
 
 ]
