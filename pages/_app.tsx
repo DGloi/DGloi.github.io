@@ -9,6 +9,7 @@ import navbar from "../data/navbar.json";
 import bio from "../data/bio.json";
 import Head from 'next/head';
 import { Global } from '@emotion/react'
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const GlobalStyle = () => (
   <Global
@@ -34,6 +35,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         {Edit()}
         <Footer /> 
       </Container>
+      <SpeedInsights />
       <Analytics />
     </ChakraProvider>
   );

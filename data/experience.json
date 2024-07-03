@@ -8,7 +8,7 @@
             {
                 "title": "Software Engineer : financial systems",
                 "description": "👷",
-                "stack": "Git, Python, Django, React, GCP, Bigquery, JS, SQL, , Terraform, Docker, Kubernetes",
+                "stack": "Git, Netuite ERP, GCP, Dataform, Big Query, Python, Django, React, JS, SQL, Terraform, Docker, Kubernetes, REST",
                 "start": "05/2023",
                 "end": "Present"
             }
@@ -23,7 +23,7 @@
             {
                 "title": "Senior Data Analyst : General Ledger ",
                 "description": "Responsible for the maintenance of the General Ledger data pipeline. In charge of the reconciliation process between the General Ledger and the sub-ledgers. Developed operational dashboards on manual journal entry data quality. I have lead automation projects for our daily operations and succesfully deployed them to across teams in the US/Poland.",
-                "stack": "Git, AWS, VBA, Python, Docker, SQL, Tableau",
+                "stack": "Git, AWS, VBA, Python, REST API, Docker, SQL, Tableau, SAP ERP",
                 "start": "02/2021",
                 "end": "04/2023"
             }
