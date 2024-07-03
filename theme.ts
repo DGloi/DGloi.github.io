@@ -29,7 +29,7 @@ const theme = extendTheme({
       500: "#9fc9af",
       600: "#339966",
       700: "#26734d",
-      800: "#e0dfb1",
+      800: "#b3adf7",
       900: "#000000",
     },
     dark: {
@@ -41,7 +41,7 @@ const theme = extendTheme({
       500: "#66b377",
       600: "#4da663",
       700: "#33994e",
-      800: "#05301e", 
+      800: "#390260", 
       900: "#ffffff",
     },
   },
@@ -51,7 +51,7 @@ const theme = extendTheme({
         bg: props.colorMode === "dark" ? "dark.900" : "light.900",
         color: props.colorMode === "dark" ? "dark.900" : "light.900",
         _hover: {
-          bg: props.colorMode === "dark" ? "dark.400" : "dark.700",
+          bg: props.colorMode === "dark" ? "dark.400" : "light.700",
         },
       }),
     },

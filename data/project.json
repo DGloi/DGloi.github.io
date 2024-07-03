@@ -1,7 +1,7 @@
 [
     {
       "title": "Reviewing Platform",
-      "description": "A comprehensive platform for salary reviews process. It is a web applciation allowing database connections to various HR system. Its built using react and node.js. It is a full stack application with a database connection to MongoDB.",
+      "description": "A comprehensive platform for salary reviews process. It is a web applciation allowing database connections to various HR system. Its built using react and node.js. It is a full stack application with a database connection to PostgreDB.",
       "link": "https://github.com/DGloi/review-app",
       "date": "2023-12-15"
     },
@@ -10,6 +10,13 @@
       "description": "I always wanted to have a personal website, and now I have one! I built this website using Typescript and is deployed via Vercel. I used Next.js for the front-end. I am planning to add more features to this website in the future.",
       "link": "https://github.com/DGloi/DGloi.github.io",
       "date": "2024-04-12"
+    },
+    {
+      "title": "NETSUITE : SuiteScript RESTlet SavedSearch Utility",
+      "description": "NetSuite RESTlet script designed to facilitate Saved Search data retrieval. The script allows users to specify the search ID, page size, and page number, ensuring they can fetch specific subsets of data from large saved search results.",
+      "link": "https://github.com/DGloi/SuiteScript-RESTlet-SavedSearch-Utility",
+      "date": "2024-06-15"
     }
+
   ]
   
