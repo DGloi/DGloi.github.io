@@ -1,7 +1,7 @@
 [
     {
-      "title": "Reviewing Platform",
-      "description": "A comprehensive platform for salary reviews process. It is a web applciation allowing database connections to various HR system. Its built using react and node.js. It is a full stack application with a database connection to PostgreDB.",
+      "title": "(WIP) Revenue Platform",
+      "description": "Fullstack Application for Revenue data visualisation and reporting. Using a React FrontEnd and Django architecture with a Postgre DB on the BackEnd. My goal is to showcase a light version of the different apps and services I have been developing so far.",
       "link": "https://github.com/DGloi/review-app",
       "date": "2023-12-15"
     },
