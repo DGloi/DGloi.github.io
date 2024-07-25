@@ -22,7 +22,7 @@
         "roles": [
             {
                 "title": "Senior Data Analyst : General Ledger ",
-                "description": "Responsible for the maintenance of the General Ledger data pipeline. In charge of the reconciliation process between the General Ledger and the sub-ledgers. Developed operational dashboards on manual journal entry data quality. I have lead automation projects for our daily operations and succesfully deployed them to across teams in the US/Poland.",
+                "description": "Responsible for the maintenance of the General Ledger data pipeline. In charge of the reconciliation process between the General Ledger and the sub-ledgers. Built and maintained a CI/CD data pipeline for cross‑ledger reconciliation, orchestrated with Apache Airflow on AWS. Developed dashboards with React on manual journal entry data quality. I built for our daily operations and succesfully deployed them to across teams in the US/Poland.",
                 "stack": "Git, AWS, VBA, Python, REST API, Docker, SQL, Tableau, SAP ERP",
                 "start": "02/2021",
                 "end": "04/2023"
